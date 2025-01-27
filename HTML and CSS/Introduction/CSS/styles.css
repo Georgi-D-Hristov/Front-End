@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+}
+
+p {
+    font-size: 25px;
+}
+
+.highlight {
+    background-color: blueviolet;
+}
+
+p + p {
+    font-size: 30px;
+}
