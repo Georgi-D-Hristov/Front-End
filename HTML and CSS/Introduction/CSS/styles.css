@@ -13,3 +13,32 @@ p {
 p + p {
     font-size: 30px;
 }
+#main-title {
+    font-style: oblique;
+    font-size: 150px;
+}
+#special-paragraph {
+    font-style: italic;
+    color: greenyellow;
+    background-color: red;
+}
+
+
+
+div.highlight{
+    background-color: yellow;;
+}
+
+@counter-style thumbs {
+    system: cyclic;
+    symbols: "\1F44D";
+    suffix: " ";
+  }
+  
+  ul > li {
+    list-style: thumbs;
+  }
+  
+ol  {
+    list-style: upper-roman;
+}
