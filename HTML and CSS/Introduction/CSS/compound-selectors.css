@@ -5,3 +5,13 @@ p.SecondP {
 div #div2 {
     background-color: yellow;
 }
+p[type="text"] {
+    color: brown;
+}
+.divClass {
+    background-color: blue;
+    color: azure;
+}
+.FirstP .SecondP .ThirdP{
+    font-style: italic;
+}
