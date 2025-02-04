@@ -2,3 +2,12 @@ body{
     color: blueviolet;
     background-color: aquamarine;
 }
+
+nav a{
+    background-color: red;
+}
+
+#paragraphs{
+    color:crimson;
+    background-color: blue;
+}
