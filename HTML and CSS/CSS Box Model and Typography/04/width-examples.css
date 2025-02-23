@@ -1,0 +1,22 @@
+div {
+    border: 1px solid red;
+    padding: 1em;
+    margin: 1em;
+}
+
+.flex-width {
+    width: 300px;
+}
+
+.percentage-width {
+    width: 50%;
+}
+
+.viewpoint-width {
+    width: 50vw;
+}
+
+.min-max-width {
+    min-width: 100px;
+    max-width: 300px;
+}
