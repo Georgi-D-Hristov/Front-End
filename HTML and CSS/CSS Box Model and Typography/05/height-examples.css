@@ -1,0 +1,22 @@
+div {
+    border: 1px solid red;
+    padding: 1em;
+    margin: 1em;
+}
+
+.flex-height {
+    height: 200px;
+}
+
+.percentage-height {
+    height: 50%;
+}
+
+.viewpoint-height {
+    height: 50vw;
+}
+
+.min-max-height {
+    min-height: 100px;
+    max-height: 300px;
+}
