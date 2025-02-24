@@ -1,0 +1,27 @@
+section {
+    border: 2px solid black;
+    position: relative;
+    padding: 2em;
+    margin: 10px;
+}
+
+div {
+    border: 1px solid blue;
+    padding: 0.5em;
+    width: 5em;
+    height: 5em;
+}
+
+.relative .item2 {
+    position: relative;
+    left: 5em;
+    top: 2em;
+    background: lightgreen;
+}
+
+.absolute .item2 {
+    position: absolute;
+    left: 4em;
+    top: 8em;
+    background: lightgreen;
+}
