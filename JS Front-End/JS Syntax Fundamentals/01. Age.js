@@ -23,4 +23,4 @@ function determines (age){
 
 
 
-determines(-1);
+determines(25);
