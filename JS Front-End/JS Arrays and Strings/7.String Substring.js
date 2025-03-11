@@ -1,6 +1,5 @@
 function findSubstring(word, text){
 
-    
     word = word.toLowerCase().trim();
     let words = text.toLowerCase().split(' ');
 
