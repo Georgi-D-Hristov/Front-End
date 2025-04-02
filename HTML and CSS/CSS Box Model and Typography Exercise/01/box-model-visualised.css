@@ -1,0 +1,47 @@
+.css-box {
+    width: 50vw;
+    margin: 3em auto;
+    
+}
+
+.css-box div {
+    border: 1px dashed black;
+    margin: 0em 2em 2em 2em;
+}
+
+.css-box div::before {
+    display: block;
+    height: 2em;
+    align-content: center;
+    padding-left: 0.8em;
+}
+
+.css-box .margin{
+    background: lightsalmon;
+}
+
+.css-box .margin::before {
+    content: 'margin';
+}
+
+.css-box .border {
+    background-color: blanchedalmond;
+}
+
+.css-box .border::before {
+    content: 'border';
+}
+
+.css-box .padding {
+    background-color: lightgreen;
+}
+
+.css-box .padding::before {
+    content: 'padding';
+}
+
+.css-box .content {
+    background-color: lightblue;
+    padding: 1em;
+    text-align: center;
+}
